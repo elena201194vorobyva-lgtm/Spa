@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Spa Branches</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #3a2812, #050402 45%, #000);
+  color: #fff7e6;
+}
+.hero {
+  text-align: center;
+  padding: 48px 18px 30px;
+  border-bottom: 1px solid rgba(214,174,99,.35);
+}
+.hero h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 46px;
+  letter-spacing: 3px;
+  color: #d6ae63;
+}
+.hero p {
+  margin: 14px auto;
+  max-width: 650px;
+  line-height: 1.5;
+  color: #e8dcc2;
+}
+.promo {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 13px 20px;
+  border: 1px solid #d6ae63;
+  border-radius: 40px;
+  background: rgba(214,174,99,.12);
+  font-size: 18px;
+}
+.promo strong {
+  color: #d6ae63;
+  letter-spacing: 2px;
+}
+.container {
+  width: min(1100px, 94%);
+  margin: 28px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.card {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid rgba(214,174,99,.45);
+  border-radius: 22px;
+  background: linear-gradient(145deg, rgba(255,255,255,.06), rgba(214,174,99,.08));
+  box-shadow: 0 12px 35px rgba(0,0,0,.28);
+}
+.number {
+  flex: 0 0 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #d6ae63;
+  color: #160f08;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+}
+h2 {
+  margin: 0 0 10px;
+  color: #f2d08a;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+}
+.address, .phone {
+  margin: 8px 0;
+  line-height: 1.45;
+  color: #fff7e6;
+}
+.text-link {
+  color: #fff7e6;
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.btn {
+  padding: 9px 12px;
+  border-radius: 30px;
+  border: 1px solid rgba(214,174,99,.55);
+  color: #fff7e6;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.btn.gold {
+  background: #d6ae63;
+  color: #160f08;
+}
+.footer {
+  text-align: center;
+  color: #cdbf9d;
+  padding: 0 20px 40px;
+}
+@media (max-width: 760px) {
+  .container { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 36px; }
+}
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1>OUR BRANCHES</h1>
+  <p>Dubai & Abu Dhabi luxury spa locations. Choose the nearest branch, open Google Maps, call us or book through WhatsApp.</p>
+  <div class="promo">Promo code: <strong>SPA10</strong></div>
+</section>
+
+<main class="container">
+
+    <div class="card">
+      <div class="number">1</div>
+      <div>
+        <h2>PALM SPA</h2>
+        <p class="address">📍 Radisson Beach Resort, Palm Jumeirah</p>
+        <p class="phone">📞 <a href="tel:+971551762894" class="text-link">+971551762894</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971551762894?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20PALM%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971551762894" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Radisson%20Beach%20Resort%2C%20Palm%20Jumeirah" target="_blank" class="btn">Google Maps</a>
+          
+          <a href="https://instagram.com/palmspa.dubai" target="_blank" class="btn">Instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">2</div>
+      <div>
+        <h2>K | SPA</h2>
+        <p class="address">📍 Mövenpick Hotel, Bur Dubai, Oud Metha</p>
+        <p class="phone">📞 <a href="tel:+971582596441" class="text-link">+971582596441</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971582596441?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20K%20%7C%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971582596441" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=M%C3%B6venpick%20Hotel%2C%20Bur%20Dubai%2C%20Oud%20Metha" target="_blank" class="btn">Google Maps</a>
+          <a href="https://kspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">3</div>
+      <div>
+        <h2>ELIS SPA</h2>
+        <p class="address">📍 Courtyard Hotel by Marriott, World Trade Centre</p>
+        <p class="phone">📞 <a href="tel:+971553473370" class="text-link">+971553473370</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971553473370?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20ELIS%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971553473370" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Courtyard%20Hotel%20by%20Marriott%2C%20World%20Trade%20Centre" target="_blank" class="btn">Google Maps</a>
+          
+          <a href="https://instagram.com/elisspadubai" target="_blank" class="btn">Instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">4</div>
+      <div>
+        <h2>EURO SPA</h2>
+        <p class="address">📍 Ramada by Wyndham, Barsha Heights</p>
+        <p class="phone">📞 <a href="tel:+971562279600" class="text-link">+971562279600</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971562279600?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20EURO%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971562279600" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Ramada%20by%20Wyndham%2C%20Barsha%20Heights" target="_blank" class="btn">Google Maps</a>
+          <a href="https://eurospa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">5</div>
+      <div>
+        <h2>RU | SPA</h2>
+        <p class="address">📍 Courtyard by Marriott Hotel, Al Barsha</p>
+        <p class="phone">📞 <a href="tel:+971588908121" class="text-link">+971588908121</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971588908121?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20RU%20%7C%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971588908121" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Courtyard%20by%20Marriott%20Hotel%2C%20Al%20Barsha" target="_blank" class="btn">Google Maps</a>
+          <a href="https://ruspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">6</div>
+      <div>
+        <h2>ELIXIR SPA</h2>
+        <p class="address">📍 Hilton Hotel, Al Habtoor City, Sheikh Zayed Road</p>
+        <p class="phone">📞 <a href="tel:+971522604981" class="text-link">+971522604981</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971522604981?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20ELIXIR%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971522604981" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Hilton%20Hotel%2C%20Al%20Habtoor%20City%2C%20Sheikh%20Zayed%20Road" target="_blank" class="btn">Google Maps</a>
+          
+          <a href="https://instagram.com/ukrainespadubai" target="_blank" class="btn">Instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">7</div>
+      <div>
+        <h2>ADEL SPA</h2>
+        <p class="address">📍 Copthorne Hotel, Deira City Centre</p>
+        <p class="phone">📞 <a href="tel:+971504084074" class="text-link">+971504084074</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971504084074?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20ADEL%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971504084074" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Copthorne%20Hotel%2C%20Deira%20City%20Centre" target="_blank" class="btn">Google Maps</a>
+          <a href="https://adelspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">8</div>
+      <div>
+        <h2>LUXURY SPA</h2>
+        <p class="address">📍 Millennium Central Downtown Hotel, Downtown</p>
+        <p class="phone">📞 <a href="tel:+971582134019" class="text-link">+971582134019</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971582134019?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20LUXURY%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971582134019" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Millennium%20Central%20Downtown%20Hotel%2C%20Downtown" target="_blank" class="btn">Google Maps</a>
+          <a href="https://www.luxuryspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">9</div>
+      <div>
+        <h2>EUROPEAN SPA</h2>
+        <p class="address">📍 Sofitel Hotel, Jumeirah Beach</p>
+        <p class="phone">📞 <a href="tel:+971582134017" class="text-link">+971582134017</a> </p>
+        <div class="buttons">
+          <a href="https://wa.me/971582134017?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20EUROPEAN%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971582134017" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Sofitel%20Hotel%2C%20Jumeirah%20Beach" target="_blank" class="btn">Google Maps</a>
+          <a href="https://www.europeanspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="number">10</div>
+      <div>
+        <h2>THE WEST BAY SPA</h2>
+        <p class="address">📍 Abu Dhabi</p>
+        <p class="phone">📞 <a href="tel:+971525095998" class="text-link">+971525095998</a> <a href="tel:+971589088743" class="text-link">+971589088743</a></p>
+        <div class="buttons">
+          <a href="https://wa.me/971525095998?text=Hello%2C%20I%20scanned%20the%20QR%20code.%20I%20would%20like%20to%20book%20THE%20WEST%20BAY%20SPA.%20Promo%20code%3A%20SPA10" target="_blank" class="btn gold">WhatsApp</a>
+          <a href="tel:+971525095998" class="btn">Call</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Abu%20Dhabi" target="_blank" class="btn">Google Maps</a>
+          <a href="https://venetianspa.ae/" target="_blank" class="btn">Website</a>
+          
+        </div>
+      </div>
+    </div>
+    
+</main>
+
+<div class="footer">
+  Scan QR • Choose branch • Book your spa experience
+</div>
+</body>
+</html>
